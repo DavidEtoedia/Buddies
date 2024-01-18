@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct BuddiesApp: App {
+    @State private var controller = Controller()
     var body: some Scene {
         WindowGroup {
             ContentView()
+              .environment(controller)
         }
     }
 }
+

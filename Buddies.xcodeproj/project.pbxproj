@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6251EF2B4D82FC0093D662 /* BudDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6251EE2B4D82FC0093D662 /* BudDetails.swift */; };
 		0C7C5DC32B441ECE003D5D8F /* BuddiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C5DC22B441ECE003D5D8F /* BuddiesApp.swift */; };
 		0C7C5DC52B441ECE003D5D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C5DC42B441ECE003D5D8F /* ContentView.swift */; };
 		0C7C5DC72B441ED0003D5D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7C5DC62B441ED0003D5D8F /* Assets.xcassets */; };
 		0C7C5DCA2B441ED0003D5D8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C7C5DC92B441ED0003D5D8F /* Preview Assets.xcassets */; };
+		0C7C5DD12B442106003D5D8F /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C5DD02B442106003D5D8F /* Controller.swift */; };
+		0C96EFE32B4CA16E005B8DCC /* StackedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C96EFE22B4CA16E005B8DCC /* StackedView.swift */; };
+		0CA246542B50D07C00AD8A85 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA246532B50D07C00AD8A85 /* DetailsView.swift */; };
+		0CA75FEB2B4AE1290037A0EA /* HoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA75FEA2B4AE1290037A0EA /* HoverView.swift */; };
+		0CAC7FDC2B4E0B17002577F9 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC7FDB2B4E0B17002577F9 /* CheckBox.swift */; };
+		0CAC7FDE2B4E1672002577F9 /* StackedAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC7FDD2B4E1672002577F9 /* StackedAmount.swift */; };
+		0CAC7FE02B4E19C8002577F9 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAC7FDF2B4E19C8002577F9 /* ImageView.swift */; };
+		0CEDB1682B59B932003A6535 /* productView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDB1672B59B932003A6535 /* productView.swift */; };
+		0CEDB16A2B59B9BF003A6535 /* SelectedStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEDB1692B59B9BF003A6535 /* SelectedStack.swift */; };
+		0CF40CCD2B4B194200EA8911 /* TagCountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF40CCC2B4B194200EA8911 /* TagCountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4901D62B49E81800C6D0A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C6251EE2B4D82FC0093D662 /* BudDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudDetails.swift; sourceTree = "<group>"; };
 		0C7C5DBF2B441ECE003D5D8F /* Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C7C5DC22B441ECE003D5D8F /* BuddiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddiesApp.swift; sourceTree = "<group>"; };
 		0C7C5DC42B441ECE003D5D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0C7C5DC62B441ED0003D5D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C7C5DC92B441ED0003D5D8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C7C5DD02B442106003D5D8F /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		0C96EFE22B4CA16E005B8DCC /* StackedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedView.swift; sourceTree = "<group>"; };
+		0CA246532B50D07C00AD8A85 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		0CA75FEA2B4AE1290037A0EA /* HoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverView.swift; sourceTree = "<group>"; };
+		0CAC7FDB2B4E0B17002577F9 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		0CAC7FDD2B4E1672002577F9 /* StackedAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedAmount.swift; sourceTree = "<group>"; };
+		0CAC7FDF2B4E19C8002577F9 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		0CEDB1672B59B932003A6535 /* productView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productView.swift; sourceTree = "<group>"; };
+		0CEDB1692B59B9BF003A6535 /* SelectedStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedStack.swift; sourceTree = "<group>"; };
+		0CF40CCC2B4B194200EA8911 /* TagCountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +74,13 @@
 		0C7C5DC12B441ECE003D5D8F /* Buddies */ = {
 			isa = PBXGroup;
 			children = (
+				0CA75FE92B4AE0FC0037A0EA /* Views */,
+				0C4901D62B49E81800C6D0A7 /* Info.plist */,
 				0C7C5DC22B441ECE003D5D8F /* BuddiesApp.swift */,
 				0C7C5DC42B441ECE003D5D8F /* ContentView.swift */,
 				0C7C5DC62B441ED0003D5D8F /* Assets.xcassets */,
 				0C7C5DC82B441ED0003D5D8F /* Preview Content */,
+				0C7C5DD02B442106003D5D8F /* Controller.swift */,
 			);
 			path = Buddies;
 			sourceTree = "<group>";
@@ -65,6 +91,23 @@
 				0C7C5DC92B441ED0003D5D8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CA75FE92B4AE0FC0037A0EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CA75FEA2B4AE1290037A0EA /* HoverView.swift */,
+				0CF40CCC2B4B194200EA8911 /* TagCountView.swift */,
+				0C96EFE22B4CA16E005B8DCC /* StackedView.swift */,
+				0C6251EE2B4D82FC0093D662 /* BudDetails.swift */,
+				0CAC7FDB2B4E0B17002577F9 /* CheckBox.swift */,
+				0CAC7FDD2B4E1672002577F9 /* StackedAmount.swift */,
+				0CAC7FDF2B4E19C8002577F9 /* ImageView.swift */,
+				0CA246532B50D07C00AD8A85 /* DetailsView.swift */,
+				0CEDB1672B59B932003A6535 /* productView.swift */,
+				0CEDB1692B59B9BF003A6535 /* SelectedStack.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +180,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CAC7FE02B4E19C8002577F9 /* ImageView.swift in Sources */,
+				0CAC7FDC2B4E0B17002577F9 /* CheckBox.swift in Sources */,
+				0C96EFE32B4CA16E005B8DCC /* StackedView.swift in Sources */,
+				0CAC7FDE2B4E1672002577F9 /* StackedAmount.swift in Sources */,
+				0C6251EF2B4D82FC0093D662 /* BudDetails.swift in Sources */,
+				0C7C5DD12B442106003D5D8F /* Controller.swift in Sources */,
+				0CEDB16A2B59B9BF003A6535 /* SelectedStack.swift in Sources */,
+				0CA246542B50D07C00AD8A85 /* DetailsView.swift in Sources */,
+				0CF40CCD2B4B194200EA8911 /* TagCountView.swift in Sources */,
+				0CEDB1682B59B932003A6535 /* productView.swift in Sources */,
+				0CA75FEB2B4AE1290037A0EA /* HoverView.swift in Sources */,
 				0C7C5DC52B441ECE003D5D8F /* ContentView.swift in Sources */,
 				0C7C5DC32B441ECE003D5D8F /* BuddiesApp.swift in Sources */,
 			);
@@ -275,6 +329,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Buddies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +359,7 @@
 				DEVELOPMENT_TEAM = ABK2TMF98V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Buddies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
